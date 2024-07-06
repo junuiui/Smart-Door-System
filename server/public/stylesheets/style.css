@@ -1,0 +1,120 @@
+#myHtml{
+    font-family: monospace;
+    font-size: 25px;
+}
+
+#first {
+    max-width:1000px;
+    width: 100%;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 10px; 
+    overflow: hidden; 
+    margin: 10px;
+    padding:10px;
+}
+
+#first_pic {
+    display: flex;
+    align-items: center; 
+}
+
+#first_pic img {
+    border-style: solid;
+    border-color: transparent;
+    border-width: 2px;
+    border-radius: 10px; 
+    overflow: hidden; 
+    width: 100px; 
+    height: auto; 
+    margin: 10px; 
+    margin-bottom: 20px;
+}
+
+#first_pic text {
+    text-align: center;
+    flex: 1;
+    font-size: 70px;
+}
+
+#second {
+    max-width:1000px;
+    width: 100%;
+    height: 60px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 10px;
+    overflow: hidden; 
+    margin: 10px;
+    padding:10px;
+}
+
+#up {
+    text-align: right;
+    margin: 10px;
+}
+
+#upTime{
+    font-size: 25px;
+    text-align: center;
+}
+
+
+#log_text{
+    font-size: 18px;
+    margin: 8px;
+}
+
+#third {
+    max-width:1000px;
+    width: 100%;
+    height: 10%;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    border-radius: 10px; 
+    overflow: hidden; 
+    margin: 10px;
+    padding:10px;
+}
+
+#third_title{
+    padding: 10px;
+    margin: 10px;
+    margin-top: 10px;
+}
+
+#third_logs{
+    max-height: 600px;
+    height: 600px;
+    margin: 10px;
+    border-style: solid;
+    border-color: black;
+    border-width: 2px;
+    overflow-y:auto;
+    padding: 10px;
+}
+
+#rfid_button{
+    text-align: right;
+    margin-right: 10px;
+    
+}
+
+#rfid_clear{
+    font-size: 25px;
+}
+
+#rfid_all{
+    font-size: 25px;
+}
+
+#rfid_submit{
+    font-size: 25px;
+}
+
+#rfid_id{
+    font-size: 25px;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Embedoors Log Page</title>
+    <link rel="stylesheet" href="stylesheets/style.css" type="text/css" />
+</head>
+
+<body id="myHtml">
+    <form action="">
+
+        <div id="first">
+            <div id="first_pic">
+                <img src="pics/logPic.png" alt="log picture">
+                <text id="first_title">Embedoors</text> <!-- Moved title here -->
+            </div>
+        </div>
+
+        <div id="second">
+            <div id="times">
+                <div id="up"><text>Device up for:</text> <input type="text" id="upTime" value=""
+                        readonly /><text>(H:M:S)</text></div>
+            </div>
+
+        </div>
+
+        <div id="third">
+            <label id="third_title">RFID History</label>
+            <div contenteditable="true" id="third_logs">
+                <text id="log_text">RFID History...</text>
+            </div>
+            <div id="rfid_button">
+                <label>RFID Tag:</label>
+                <input type="text" id="rfid_id" placeholder="Enter RFID Tag" required>
+                <input type="button" id="rfid_submit" value="SEARCH">
+                <input type="button" id="rfid_all" value="SHOW ALL">
+                <input type="button" id="rfid_clear" value="CLEAR">
+            </div>
+
+        </div>
+    </form>
+    <script src='/socket.io/socket.io.js' type='text/javascript'></script>
+    <script src='http://code.jquery.com/jquery-1.8.0.min.js' type='text/javascript'></script>
+    <script src='javascripts/udp_ui.js' type='text/javascript'></script>
+</body>
+
+</html>
